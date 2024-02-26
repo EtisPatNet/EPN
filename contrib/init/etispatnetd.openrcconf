@@ -1,0 +1,33 @@
+# /etc/conf.d/etispatnetd: config file for /etc/init.d/etispatnetd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/etispatnet/etispatnet.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/etispatnetd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/etispatnetd.pid"
+
+# Where to write etispatnetd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/etispatnetd"
+
+# User and group to own etispatnetd process
+#BITCOIND_USER="etispatnet"
+#BITCOIND_GROUP="etispatnet"
+
+# Path to etispatnetd executable
+#BITCOIND_BIN="/usr/bin/etispatnetd"
+
+# Nice value to run etispatnetd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#BITCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for etispatnetd to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BITCOIND_SIGTERM_TIMEOUT=60

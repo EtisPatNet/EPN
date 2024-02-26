@@ -1,0 +1,25 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="ar">locale/etispatnet_ar.qm</file>
+        <file alias="bg">locale/etispatnet_bg.qm</file>
+        <file alias="de">locale/etispatnet_de.qm</file>
+        <file alias="en">locale/etispatnet_en.qm</file>
+        <file alias="es">locale/etispatnet_es.qm</file>
+        <file alias="fi">locale/etispatnet_fi.qm</file>
+        <file alias="fr">locale/etispatnet_fr.qm</file>
+        <file alias="it">locale/etispatnet_it.qm</file>
+        <file alias="ja">locale/etispatnet_ja.qm</file>
+        <file alias="ko">locale/etispatnet_ko.qm</file>
+        <file alias="nl">locale/etispatnet_nl.qm</file>
+        <file alias="pl">locale/etispatnet_pl.qm</file>
+        <file alias="pt">locale/etispatnet_pt.qm</file>
+        <file alias="ro">locale/etispatnet_ro.qm</file>
+        <file alias="ru">locale/etispatnet_ru.qm</file>
+        <file alias="sk">locale/etispatnet_sk.qm</file>
+        <file alias="th">locale/etispatnet_th.qm</file>
+        <file alias="tr">locale/etispatnet_tr.qm</file>
+        <file alias="vi">locale/etispatnet_vi.qm</file>
+        <file alias="zh_CN">locale/etispatnet_zh_CN.qm</file>
+        <file alias="zh_TW">locale/etispatnet_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,67 @@
+#!/usr/bin/env bash
+#
+#  etispatnetd The EtisPatNet Core server.
+#
+#
+# chkconfig: 345 80 20
+# description: etispatnetd
+# processname: etispatnetd
+#
+
+# Source function library.
+. /etc/init.d/functions
+
+# you can override defaults in /etc/sysconfig/etispatnetd, see below
+if [ -f /etc/sysconfig/etispatnetd ]; then
+        . /etc/sysconfig/etispatnetd
+fi
+
+RETVAL=0
+
+prog=etispatnetd
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/etispatnetd
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/etispatnetd}
+
+# etispatnetd defaults to /usr/bin/etispatnetd, override with BITCOIND_BIN
+etispatnetd=${BITCOIND_BIN-/usr/bin/etispatnetd}
+
+# etispatnetd opts default to -disablewallet, override with BITCOIND_OPTS
+etispatnetd_opts=${BITCOIND_OPTS--disablewallet}
+
+start() {
+    echo -n $"Starting $prog: "
+    daemon $DAEMONOPTS $etispatnetd $etispatnetd_opts
+    RETVAL=$?
+    echo
+    [ $RETVAL -eq 0 ] && touch $lockfile
+    return $RETVAL
+}
+
+stop() {
+    echo -n $"Stopping $prog: "
+    killproc $prog -t600
+    RETVAL=$?
+    echo
+    [ $RETVAL -eq 0 ] && rm -f $lockfile
+    return $RETVAL
+}
+
+case "$1" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    status)
+        status $prog
+        ;;
+    restart)
+        stop
+        start
+        ;;
+    *)
+        echo "Usage: service $prog {start|stop|status|restart}"
+        exit 1
+        ;;
+esac

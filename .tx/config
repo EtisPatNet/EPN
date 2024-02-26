@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[etispatnet.etispatnet_ents]
+file_filter = src/qt/locale/etispatnet_<lang>.ts
+source_file = src/qt/locale/etispatnet_en.xlf
+source_lang = en

@@ -1,0 +1,6 @@
+usr/local/bin/etispatnet-qt usr/bin
+share/pixmaps/etispatnet32.xpm usr/share/pixmaps
+share/pixmaps/etispatnet16.xpm usr/share/pixmaps
+share/pixmaps/etispatnet128.png usr/share/pixmaps
+debian/etispatnet-qt.desktop usr/share/applications
+debian/etispatnet-qt.protocol usr/share/kde4/services/

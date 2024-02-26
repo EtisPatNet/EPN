@@ -1,0 +1,22 @@
+QT_TS = \
+  qt/locale/etispatnet_ar.ts \
+  qt/locale/etispatnet_bg.ts \
+  qt/locale/etispatnet_de.ts \
+  qt/locale/etispatnet_en.ts \
+  qt/locale/etispatnet_es.ts \
+  qt/locale/etispatnet_fi.ts \
+  qt/locale/etispatnet_fr.ts \
+  qt/locale/etispatnet_it.ts \
+  qt/locale/etispatnet_ja.ts \
+  qt/locale/etispatnet_ko.ts \
+  qt/locale/etispatnet_nl.ts \
+  qt/locale/etispatnet_pl.ts \
+  qt/locale/etispatnet_pt.ts \
+  qt/locale/etispatnet_ro.ts \
+  qt/locale/etispatnet_ru.ts \
+  qt/locale/etispatnet_sk.ts \
+  qt/locale/etispatnet_th.ts \
+  qt/locale/etispatnet_tr.ts \
+  qt/locale/etispatnet_vi.ts \
+  qt/locale/etispatnet_zh_CN.ts \
+  qt/locale/etispatnet_zh_TW.ts
