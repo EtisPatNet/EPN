@@ -25,7 +25,7 @@ Coin Info
 📌 Total Supply -> 120600000  <br>
 
 
-EtisPatNet Core staging tree 18.0
+EtisPatNet 
 ===========================
 
 
