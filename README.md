@@ -1,6 +1,6 @@
 Coin Info
 
-⛏️ Algorithm -> X11⛏️ 
+⛏️ Algorithm -> X11⛏️ <br>
 📌 Coin Name -> EtisPatNet
 📌 Ticker -> EPN
 📌 RPC port -> 16307
