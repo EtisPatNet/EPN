@@ -1,14 +1,9 @@
 EtisPatNet Core staging tree 18.0
 ===========================
 
-|CI|master|develop|
-|-|-|-|
-|Gitlab|[![Build Status](https://gitlab.com/etispatnetpay/etispatnet/badges/master/pipeline.svg)](https://gitlab.com/etispatnetpay/etispatnet/-/tree/master)|[![Build Status](https://gitlab.com/etispatnetpay/etispatnet/badges/develop/pipeline.svg)](https://gitlab.com/etispatnetpay/etispatnet/-/tree/develop)|
 
-https://www.etispatnet.org
+http://etispatnet.space/
 
-For an immediately usable, binary version of the EtisPatNet Core software, see
-https://www.etispatnet.org/downloads/.
 
 Further information about EtisPatNet Core is available in the [doc folder](/doc).
 
