@@ -1,20 +1,28 @@
+Links
+
+:pushpin:Website: http://etispatnet.space/ <br>
+:pushpin:Explorer:http://expoler.etispatnet.space/ (in development) <br>
+:pushpin:GitHub: https://github.com/EtisPatNet <br>
+:pushpin:Wallets: https://github.com/EtisPatNet/EPN/releases/ <br>
+
+
 Coin Info
 
 ⛏️ Algorithm -> X11⛏️ <br>
-📌 Coin Name -> EtisPatNet
-📌 Ticker -> EPN
-📌 RPC port -> 16307
-📌 P2P port -> 16308
-📌 Block Reward -> 120
-📌 Block Time -> 3 min
-📌 Masternode Reward -> 70%
-📌 Superblock reward -> 10%
-📌 Masternode Collateral -> 12,000 coins EPN
-📌 Masternode confirmations -> 15 blocks
-📌 Coinbase maturity -> 20+1
-📌 Block Halving -> 500000
-📌 Premine -> 600000 
-📌 Total Supply -> 120600000 
+📌 Coin Name -> EtisPatNet <br>
+📌 Ticker -> EPN <br>
+📌 RPC port -> 16307 <br>
+📌 P2P port -> 16308 <br>
+📌 Block Reward -> 120 <br>
+📌 Block Time -> 3 min <br>
+📌 Masternode Reward -> 70% <br>
+📌 Superblock reward -> 10% <br>
+📌 Masternode Collateral -> 12,000 coins EPN <br>
+📌 Masternode confirmations -> 15 blocks <br>
+📌 Coinbase maturity -> 20+1 <br>
+📌 Block Halving -> 500000 <br>
+📌 Premine -> 600000  <br>
+📌 Total Supply -> 120600000  <br>
 
 
 EtisPatNet Core staging tree 18.0
